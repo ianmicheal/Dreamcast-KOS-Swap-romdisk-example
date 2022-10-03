@@ -5,6 +5,8 @@ Faster file loading once loaded not using the slow mil cd read speed and also be
 Not causing gdrom blocking..
 Included example shows loading a romdisk from /cd/ mounting it changing to dir and loading a png to texture to the pvr.. and also unmounting it
 Ready for the next level.. 
+In the make file it's easy to make your new romdisk place the files in romdisk folder change the src to point to them..
+
 
 Futher info is here https://dcemulation.org/index.php?title=Romdisk_Swapping
 and here https://dcemulation.org/phpBB/viewtopic.php?f=29&t=68795&hilit=romdisk+feet+of+fury
