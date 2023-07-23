@@ -21,13 +21,13 @@ static bool mount_romdisk(char *filename, char *mountpoint)
 	void *buffer;
 	ssize_t size = fs_load(filename, &buffer);
 
-	printf("Load Romdisk2 %d\n", size);
+	printf("Load Romdisk3 %d\n", size);
 
 	if (size != 1)
 	{
 		fs_romdisk_mount(mountpoint, buffer, 1);
 		
-		printf("Load Inside Romdisk2 %d\n", size);
+		printf("Load Inside Romdisk3 %d\n", size);
 		return true;
 
 	} else return false;
